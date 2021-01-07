@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAC32CCA25A767520081FE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32CC925A767520081FE9B /* AppDelegate.swift */; };
+		CAC32CCC25A767520081FE9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32CCB25A767520081FE9B /* SceneDelegate.swift */; };
+		CAC32CD125A767520081FE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC32CCF25A767520081FE9B /* Main.storyboard */; };
+		CAC32CD425A767520081FE9B /* VIPER.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAC32CD225A767520081FE9B /* VIPER.xcdatamodeld */; };
+		CAC32CD625A767540081FE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC32CD525A767540081FE9B /* Assets.xcassets */; };
+		CAC32CD925A767540081FE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC32CD725A767540081FE9B /* LaunchScreen.storyboard */; };
+		CAC32CE425A767540081FE9B /* VIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32CE325A767540081FE9B /* VIPERTests.swift */; };
+		CAC32CEF25A767540081FE9B /* VIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32CEE25A767540081FE9B /* VIPERUITests.swift */; };
+		CAC32D1A25A7694A0081FE9B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32D1925A7694A0081FE9B /* LoginViewController.swift */; };
+		CAC32D2225A769550081FE9B /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32D2125A769550081FE9B /* LoginPresenter.swift */; };
+		CAC32D2725A769600081FE9B /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32D2625A769600081FE9B /* LoginInteractor.swift */; };
+		CAC32D2C25A7696B0081FE9B /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32D2B25A7696B0081FE9B /* LoginRouter.swift */; };
+		CAC32D3125A7697A0081FE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32D3025A7697A0081FE9B /* ViewController.swift */; };
+		CAC32D3925A76B810081FE9B /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32D3825A76B810081FE9B /* Presenter.swift */; };
+		CAC32D3E25A76E5C0081FE9B /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32D3D25A76E5C0081FE9B /* UserData.swift */; };
+		CAC32D4425A76F340081FE9B /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = CAC32D4325A76F340081FE9B /* JGProgressHUD */; };
+		CAC32D4925A7817E0081FE9B /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32D4825A7817E0081FE9B /* String+.swift */; };
+		CAC32D4F25A782ED0081FE9B /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CAC32D4E25A782ED0081FE9B /* IQKeyboardManagerSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAC32CE025A767540081FE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAC32CBE25A767520081FE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC32CC525A767520081FE9B;
+			remoteInfo = VIPER;
+		};
+		CAC32CEB25A767540081FE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAC32CBE25A767520081FE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAC32CC525A767520081FE9B;
+			remoteInfo = VIPER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAC32CC625A767520081FE9B /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC32CC925A767520081FE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAC32CCB25A767520081FE9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAC32CD025A767520081FE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAC32CD325A767520081FE9B /* VIPER.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VIPER.xcdatamodel; sourceTree = "<group>"; };
+		CAC32CD525A767540081FE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAC32CD825A767540081FE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAC32CDA25A767540081FE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC32CDF25A767540081FE9B /* VIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC32CE325A767540081FE9B /* VIPERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERTests.swift; sourceTree = "<group>"; };
+		CAC32CE525A767540081FE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC32CEA25A767540081FE9B /* VIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC32CEE25A767540081FE9B /* VIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERUITests.swift; sourceTree = "<group>"; };
+		CAC32CF025A767540081FE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC32D1925A7694A0081FE9B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CAC32D2125A769550081FE9B /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		CAC32D2625A769600081FE9B /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		CAC32D2B25A7696B0081FE9B /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		CAC32D3025A7697A0081FE9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAC32D3825A76B810081FE9B /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		CAC32D3D25A76E5C0081FE9B /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		CAC32D4825A7817E0081FE9B /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAC32CC325A767520081FE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC32D4425A76F340081FE9B /* JGProgressHUD in Frameworks */,
+				CAC32D4F25A782ED0081FE9B /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC32CDC25A767540081FE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC32CE725A767540081FE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAC32CBD25A767520081FE9B = {
+			isa = PBXGroup;
+			children = (
+				CAC32CC825A767520081FE9B /* VIPER */,
+				CAC32CE225A767540081FE9B /* VIPERTests */,
+				CAC32CED25A767540081FE9B /* VIPERUITests */,
+				CAC32CC725A767520081FE9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAC32CC725A767520081FE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC32CC625A767520081FE9B /* VIPER.app */,
+				CAC32CDF25A767540081FE9B /* VIPERTests.xctest */,
+				CAC32CEA25A767540081FE9B /* VIPERUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAC32CC825A767520081FE9B /* VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				CAC32CFF25A7675F0081FE9B /* App */,
+				CAC32D0025A767730081FE9B /* Assets */,
+				CAC32D0325A767AB0081FE9B /* UI */,
+				CAC32D0125A767890081FE9B /* Modules */,
+				CAC32D0225A767990081FE9B /* Entity */,
+				CAC32D0425A767C50081FE9B /* Manager */,
+				CAC32D0525A767CE0081FE9B /* Extension */,
+				CAC32D0625A767D90081FE9B /* Enum */,
+				CAC32CDA25A767540081FE9B /* Info.plist */,
+			);
+			path = VIPER;
+			sourceTree = "<group>";
+		};
+		CAC32CE225A767540081FE9B /* VIPERTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAC32CE325A767540081FE9B /* VIPERTests.swift */,
+				CAC32CE525A767540081FE9B /* Info.plist */,
+			);
+			path = VIPERTests;
+			sourceTree = "<group>";
+		};
+		CAC32CED25A767540081FE9B /* VIPERUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAC32CEE25A767540081FE9B /* VIPERUITests.swift */,
+				CAC32CF025A767540081FE9B /* Info.plist */,
+			);
+			path = VIPERUITests;
+			sourceTree = "<group>";
+		};
+		CAC32CFF25A7675F0081FE9B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CAC32CC925A767520081FE9B /* AppDelegate.swift */,
+				CAC32CCB25A767520081FE9B /* SceneDelegate.swift */,
+				CAC32D3025A7697A0081FE9B /* ViewController.swift */,
+				CAC32D3825A76B810081FE9B /* Presenter.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CAC32D0025A767730081FE9B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CAC32CD525A767540081FE9B /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		CAC32D0125A767890081FE9B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CAC32D1825A769320081FE9B /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CAC32D0225A767990081FE9B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CAC32CD225A767520081FE9B /* VIPER.xcdatamodeld */,
+				CAC32D3D25A76E5C0081FE9B /* UserData.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CAC32D0325A767AB0081FE9B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CAC32CCF25A767520081FE9B /* Main.storyboard */,
+				CAC32CD725A767540081FE9B /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CAC32D0425A767C50081FE9B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CAC32D0525A767CE0081FE9B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CAC32D4825A7817E0081FE9B /* String+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CAC32D0625A767D90081FE9B /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		CAC32D1825A769320081FE9B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CAC32D1925A7694A0081FE9B /* LoginViewController.swift */,
+				CAC32D2125A769550081FE9B /* LoginPresenter.swift */,
+				CAC32D2625A769600081FE9B /* LoginInteractor.swift */,
+				CAC32D2B25A7696B0081FE9B /* LoginRouter.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAC32CC525A767520081FE9B /* VIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC32CF325A767540081FE9B /* Build configuration list for PBXNativeTarget "VIPER" */;
+			buildPhases = (
+				CAC32CC225A767520081FE9B /* Sources */,
+				CAC32CC325A767520081FE9B /* Frameworks */,
+				CAC32CC425A767520081FE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIPER;
+			packageProductDependencies = (
+				CAC32D4325A76F340081FE9B /* JGProgressHUD */,
+				CAC32D4E25A782ED0081FE9B /* IQKeyboardManagerSwift */,
+			);
+			productName = VIPER;
+			productReference = CAC32CC625A767520081FE9B /* VIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAC32CDE25A767540081FE9B /* VIPERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC32CF625A767540081FE9B /* Build configuration list for PBXNativeTarget "VIPERTests" */;
+			buildPhases = (
+				CAC32CDB25A767540081FE9B /* Sources */,
+				CAC32CDC25A767540081FE9B /* Frameworks */,
+				CAC32CDD25A767540081FE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAC32CE125A767540081FE9B /* PBXTargetDependency */,
+			);
+			name = VIPERTests;
+			productName = VIPERTests;
+			productReference = CAC32CDF25A767540081FE9B /* VIPERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAC32CE925A767540081FE9B /* VIPERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAC32CF925A767540081FE9B /* Build configuration list for PBXNativeTarget "VIPERUITests" */;
+			buildPhases = (
+				CAC32CE625A767540081FE9B /* Sources */,
+				CAC32CE725A767540081FE9B /* Frameworks */,
+				CAC32CE825A767540081FE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAC32CEC25A767540081FE9B /* PBXTargetDependency */,
+			);
+			name = VIPERUITests;
+			productName = VIPERUITests;
+			productReference = CAC32CEA25A767540081FE9B /* VIPERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAC32CBE25A767520081FE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CAC32CC525A767520081FE9B = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					CAC32CDE25A767540081FE9B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CAC32CC525A767520081FE9B;
+					};
+					CAC32CE925A767540081FE9B = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CAC32CC525A767520081FE9B;
+					};
+				};
+			};
+			buildConfigurationList = CAC32CC125A767520081FE9B /* Build configuration list for PBXProject "VIPER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAC32CBD25A767520081FE9B;
+			packageReferences = (
+				CAC32D4225A76F340081FE9B /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				CAC32D4D25A782ED0081FE9B /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = CAC32CC725A767520081FE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAC32CC525A767520081FE9B /* VIPER */,
+				CAC32CDE25A767540081FE9B /* VIPERTests */,
+				CAC32CE925A767540081FE9B /* VIPERUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAC32CC425A767520081FE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC32CD925A767540081FE9B /* LaunchScreen.storyboard in Resources */,
+				CAC32CD625A767540081FE9B /* Assets.xcassets in Resources */,
+				CAC32CD125A767520081FE9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC32CDD25A767540081FE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC32CE825A767540081FE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAC32CC225A767520081FE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC32D3925A76B810081FE9B /* Presenter.swift in Sources */,
+				CAC32D2225A769550081FE9B /* LoginPresenter.swift in Sources */,
+				CAC32CD425A767520081FE9B /* VIPER.xcdatamodeld in Sources */,
+				CAC32D2725A769600081FE9B /* LoginInteractor.swift in Sources */,
+				CAC32D3125A7697A0081FE9B /* ViewController.swift in Sources */,
+				CAC32CCA25A767520081FE9B /* AppDelegate.swift in Sources */,
+				CAC32D1A25A7694A0081FE9B /* LoginViewController.swift in Sources */,
+				CAC32D4925A7817E0081FE9B /* String+.swift in Sources */,
+				CAC32D2C25A7696B0081FE9B /* LoginRouter.swift in Sources */,
+				CAC32D3E25A76E5C0081FE9B /* UserData.swift in Sources */,
+				CAC32CCC25A767520081FE9B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC32CDB25A767540081FE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC32CE425A767540081FE9B /* VIPERTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC32CE625A767540081FE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC32CEF25A767540081FE9B /* VIPERUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAC32CE125A767540081FE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAC32CC525A767520081FE9B /* VIPER */;
+			targetProxy = CAC32CE025A767540081FE9B /* PBXContainerItemProxy */;
+		};
+		CAC32CEC25A767540081FE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAC32CC525A767520081FE9B /* VIPER */;
+			targetProxy = CAC32CEB25A767540081FE9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAC32CCF25A767520081FE9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAC32CD025A767520081FE9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAC32CD725A767540081FE9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAC32CD825A767540081FE9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAC32CF125A767540081FE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAC32CF225A767540081FE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAC32CF425A767540081FE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yousef.VIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAC32CF525A767540081FE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIPER/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yousef.VIPER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAC32CF725A767540081FE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIPERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yousef.VIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPER.app/VIPER";
+			};
+			name = Debug;
+		};
+		CAC32CF825A767540081FE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIPERTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yousef.VIPERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPER.app/VIPER";
+			};
+			name = Release;
+		};
+		CAC32CFA25A767540081FE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIPERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yousef.VIPERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VIPER;
+			};
+			name = Debug;
+		};
+		CAC32CFB25A767540081FE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VIPERUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yousef.VIPERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VIPER;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAC32CC125A767520081FE9B /* Build configuration list for PBXProject "VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC32CF125A767540081FE9B /* Debug */,
+				CAC32CF225A767540081FE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC32CF325A767540081FE9B /* Build configuration list for PBXNativeTarget "VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC32CF425A767540081FE9B /* Debug */,
+				CAC32CF525A767540081FE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC32CF625A767540081FE9B /* Build configuration list for PBXNativeTarget "VIPERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC32CF725A767540081FE9B /* Debug */,
+				CAC32CF825A767540081FE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAC32CF925A767540081FE9B /* Build configuration list for PBXNativeTarget "VIPERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAC32CFA25A767540081FE9B /* Debug */,
+				CAC32CFB25A767540081FE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CAC32D4225A76F340081FE9B /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.2.0;
+			};
+		};
+		CAC32D4D25A782ED0081FE9B /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CAC32D4325A76F340081FE9B /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAC32D4225A76F340081FE9B /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		CAC32D4E25A782ED0081FE9B /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAC32D4D25A782ED0081FE9B /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		CAC32CD225A767520081FE9B /* VIPER.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CAC32CD325A767520081FE9B /* VIPER.xcdatamodel */,
+			);
+			currentVersion = CAC32CD325A767520081FE9B /* VIPER.xcdatamodel */;
+			path = VIPER.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CAC32CBE25A767520081FE9B /* Project object */;
+}
