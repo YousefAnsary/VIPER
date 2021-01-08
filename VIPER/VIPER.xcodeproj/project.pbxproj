@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA8067DD25A8844800BB3DF6 /* UIKitCustoms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8067DC25A8844800BB3DF6 /* UIKitCustoms.framework */; };
 		CAC32CCA25A767520081FE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32CC925A767520081FE9B /* AppDelegate.swift */; };
 		CAC32CCC25A767520081FE9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32CCB25A767520081FE9B /* SceneDelegate.swift */; };
 		CAC32CD125A767520081FE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC32CCF25A767520081FE9B /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA8067DC25A8844800BB3DF6 /* UIKitCustoms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIKitCustoms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC32CC625A767520081FE9B /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC32CC925A767520081FE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAC32CCB25A767520081FE9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8067DD25A8844800BB3DF6 /* UIKitCustoms.framework in Frameworks */,
 				CAC32D4425A76F340081FE9B /* JGProgressHUD in Frameworks */,
 				CAC32D4F25A782ED0081FE9B /* IQKeyboardManagerSwift in Frameworks */,
 			);
@@ -99,6 +102,7 @@
 		CA8067C125A878CA00BB3DF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA8067DC25A8844800BB3DF6 /* UIKitCustoms.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
