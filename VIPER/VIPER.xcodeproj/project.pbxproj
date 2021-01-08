@@ -28,7 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CAC32CE025A767540081FE9B /* PBXContainerItemProxy */ = {
+		CA8067CE25A87A7D00BB3DF6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CAC32CBE25A767520081FE9B /* Project object */;
 			proxyType = 1;
@@ -96,6 +96,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA8067C125A878CA00BB3DF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CAC32CBD25A767520081FE9B = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +110,7 @@
 				CAC32CE225A767540081FE9B /* VIPERTests */,
 				CAC32CED25A767540081FE9B /* VIPERUITests */,
 				CAC32CC725A767520081FE9B /* Products */,
+				CA8067C125A878CA00BB3DF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -263,9 +271,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				CAC32CE125A767540081FE9B /* PBXTargetDependency */,
+				CA8067CF25A87A7D00BB3DF6 /* PBXTargetDependency */,
 			);
 			name = VIPERTests;
+			packageProductDependencies = (
+			);
 			productName = VIPERTests;
 			productReference = CAC32CDF25A767540081FE9B /* VIPERTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -399,10 +409,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CAC32CE125A767540081FE9B /* PBXTargetDependency */ = {
+		CA8067CF25A87A7D00BB3DF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CAC32CC525A767520081FE9B /* VIPER */;
-			targetProxy = CAC32CE025A767540081FE9B /* PBXContainerItemProxy */;
+			targetProxy = CA8067CE25A87A7D00BB3DF6 /* PBXContainerItemProxy */;
 		};
 		CAC32CEC25A767540081FE9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -718,7 +728,7 @@
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
 			requirement = {
 				kind = exactVersion;
-				version = 6.5.6;
+				version = 6.5.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
